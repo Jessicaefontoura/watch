@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtUsername" type="id" />
+    <item name="edtPassword" type="id" />
+    <item name="buttonLogin" type="id" />
+    <item name="menuLogout" type="id" />
+    <item name="textView" type="id" />
+    <item name="drawerLayout" type="id" />
+    <item name="mNavMenu" type="id" />
+    <item name="action_search" type="id" />
+</resources>
