@@ -63,7 +63,9 @@ public class ListaFilmesAdapter extends RecyclerView.Adapter<ListaFilmesAdapter.
         }
         public void bind(Filme filme){
             textTituloFilme.setText(filme.getTitulo());
-            Picasso.with(context).load ("https://image.tmdb.org/t/p/w342/" +filme.getCaminhoPoster()).into (imagePosterFilme);
+            Picasso.with(context)
+                    .load ("https://image.tmdb.org/t/p/w342/" +filme.getCaminhoPoster())
+                    .into (imagePosterFilme);
         }
     }
 

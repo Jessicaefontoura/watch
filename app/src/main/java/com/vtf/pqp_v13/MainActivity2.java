@@ -14,11 +14,6 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_login);
 
-        //if (savedInstanceState == null) {
-            //getSupportFragmentManager().beginTransaction()
-                   // .replace(R.id.container, newInstance())
-                   // .commitNow();
-        //}
 
     }
 

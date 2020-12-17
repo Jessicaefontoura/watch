@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
 
                 // Fecha esta activity
-                //finish();
+                finish();
             }
         }, SPLASH_TIME_OUT);
     }

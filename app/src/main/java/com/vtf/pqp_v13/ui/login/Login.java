@@ -32,11 +32,10 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_login);
-
-
     }
+
     public void Login(View view){
-        Intent intent = new Intent(this, Login.class);
+        Intent intent = new Intent(this, TelaPrincipal.class);
         startActivity(intent);
     }
 
@@ -47,7 +46,7 @@ public class Login extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Login.this, TelaPrincipal.class));
+               // startActivity(new Intent(Login.this, TelaPrincipal.class));
             }
         });
         if (resultCode == Activity.RESULT_OK && requestCode == 1) {

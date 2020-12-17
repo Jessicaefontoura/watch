@@ -23,7 +23,7 @@
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
                 <action
-                    android:name="android.intent.action.PICK"/>
+                    android:name="android.intent.action.SEND"/>
                 <category
                     android:name="android.intent.category.DEFAULT"/>
                 <category
