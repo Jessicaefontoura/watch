@@ -48,7 +48,7 @@ public class ListaFilmesActivity extends AppCompatActivity {
     private void configuraAdapter(){
         recyclerFilmes = findViewById(R.id.recycler_filmes);
 
-        filmesAdapter = new ListaFilmesAdapter();
+        filmesAdapter = new ListaFilmesAdapter(this);
 
         RecyclerView.LayoutManager gridLayoutMagager = new GridLayoutManager(this, 2);
         recyclerFilmes.setLayoutManager(gridLayoutMagager);

@@ -1,4 +1,8 @@
-package com.vtf.pqp_v13.ui.login;
+/*package com.vtf.pqp_v13.ui.login;
+
+import android.content.Intent;
+
+import com.vtf.pqp_v13.MainActivity2;
 
 public class LoginActivity {
     private static final String email = "admin";
@@ -39,7 +43,7 @@ public class LoginActivity {
 
 
 
-}
+}*/
 
 
 

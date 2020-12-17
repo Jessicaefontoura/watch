@@ -1,23 +1,24 @@
 package com.vtf.pqp_v13.ui.principal;
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.vtf.pqp_v13.R;
 import com.vtf.pqp_v13.ui.login.Login;
 
 
-public class TelaPrincipal extends Activity{
+public class TelaPrincipal extends AppCompatActivity {
     private EditText edtEmail;
     private EditText edtPassword;
 
     @Override
     protected void onCreate(Bundle savedInstancesState){
         super.onCreate(savedInstancesState);
-        setContentView(R.layout.tela_login);
+        setContentView(R.layout.item_filme);
         InicializaObjetos();
     }
 
@@ -44,7 +45,7 @@ public class TelaPrincipal extends Activity{
             MsgInformativa("Dados Incorretos, Favor preencher corretamente!");
         }
         else{
-            setResult(Activity.RESULT_OK);
+            setResult(AppCompatActivity.RESULT_OK);
             finish();
         }
     }

@@ -57,7 +57,7 @@ public class ListaFilmesAdapter extends RecyclerView.Adapter<ListaFilmesAdapter.
             super(itemView);
             context = itemView.getContext();
 
-            textTituloFilme = itemView.findViewById(R.id.text_TituloFilme);
+            textTituloFilme = itemView.findViewById(R.id.text_titulo_filme);
             imagePosterFilme = itemView.findViewById(R.id.image_poster_filme);
 
         }

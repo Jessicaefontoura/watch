@@ -22,7 +22,7 @@ public class Filme {
         return caminhoPoster;
     }
 
-    //public void setTitulo(String titulo) {
+   // public void setTitulo(String titulo) {
      //   this.titulo = titulo;
    // }
 
